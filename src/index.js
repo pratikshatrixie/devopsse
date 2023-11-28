@@ -3,6 +3,7 @@ var add = require("./calculator/add");
 var subtract = require("./calculator/subtract");
 var multiply = require("./calculator/multiply");
 var divide = require("./calculator/divide");
+var modulo = require('./calculator/modulo');
 
 window.onload = function () {
   document.getElementById("calculateBtn").addEventListener("click", calculate);
